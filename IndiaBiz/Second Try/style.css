@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input,
+select {
+    outline: none;
+}
+
+.form-container {
+    width: 100%;
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+.fill-info-box {
+    background-color: dodgerblue;
+    margin: 1rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.box-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.field-size {
+    display: inline-block;
+    width: 120px;
+    text-align: end;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.field-skills {
+    display: inline-block;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.tag>button {
+    margin-left: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
