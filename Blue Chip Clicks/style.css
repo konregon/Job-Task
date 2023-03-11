@@ -39,7 +39,6 @@ nav {
     flex: 0 0 50%;
     display: flex;
     justify-content: space-between;
-    background-color: dodgerblue;
 }
 
 .header .toggle-btn {
