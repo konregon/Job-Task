@@ -91,4 +91,23 @@ a {
         display: block;
         color: black;
     }
+
+    .header-links ul {
+        position: fixed;
+        flex-direction: column;
+        top: 80px;
+        background-color: dodgerblue;
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
 }
