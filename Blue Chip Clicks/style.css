@@ -28,6 +28,20 @@ a {
     padding: 0 100px;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 .header-links {
     flex: 0 0 50%;
     display: flex;
@@ -62,13 +76,19 @@ a {
     border: #3B5998 1px solid;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 
     .header-links {
-        /* flex: 0 0 30%; */
         background-color: steelblue;
         flex-direction: column;
     }
 }
 
-@media only screen and (min-width: 769px) {}
+@media only screen and (min-width: 769px) {} */
+
+@media(max-width: 858px) {
+    .checkbtn {
+        display: block;
+        color: black;
+    }
+}
