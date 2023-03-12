@@ -20,6 +20,7 @@ a {
     color: black;
 }
 
+/* =========================================================================== */
 /* NAVBAR */
 nav {
     position: relative;
@@ -122,10 +123,23 @@ nav {
     justify-content: center;
 }
 
-/* RESPONSIVE DESIGN */
-@media only screen and (max-width: 992px) {
+/* =========================================================================== */
+/* TOP BANNER */
+.top-banner {
+    width: 100vw;
+    height: auto;
+}
 
-    .header .header-links ul,
+.top-banner img {
+    width: 100%;
+}
+
+/* =========================================================================== */
+/* =========================================================================== */
+/* RESPONSIVE DESIGN */
+@media only screen and (max-width: 912px) {
+
+    .header .header-links,
     .header .header-btn {
         display: none;
     }
