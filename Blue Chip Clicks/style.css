@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.5rem + 0.5vw);
+    /* font-size: calc(0.5rem + 0.5vw); */
 }
 
 li {
@@ -128,10 +128,65 @@ nav {
 .top-banner {
     width: 100vw;
     height: auto;
+    max-height: 900px;
 }
 
 .top-banner img {
     width: 100%;
+    height: inherit;
+}
+
+
+/* =========================================================================== */
+/* HERO */
+.hero {
+    display: flex;
+}
+
+.hero-left {
+    flex: 0 0 50%;
+    height: auto;
+    max-height: 704px;
+}
+
+.hero-left img {
+    width: 100%;
+    height: inherit;
+}
+
+.hero-right {
+    padding: 2rem;
+}
+
+.Blue-link {
+    color: #3B5998;
+    font-size: 1rem;
+    transition: .3s ease-in-out;
+}
+
+.Blue-link:hover {
+    color: #1a449e;
+    font-weight: 600;
+}
+
+.hero-right h2 {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.hero-right p {
+    margin-top: 1rem;
+}
+
+.read-more-filled {
+    background-color: #3B5998;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: fit-content;
+    margin-top: 3rem;
 }
 
 /* =========================================================================== */
@@ -150,6 +205,10 @@ nav {
 
     .dropdown-menu {
         display: block;
+    }
+
+    .hero {
+        flex-direction: column;
     }
 }
 
