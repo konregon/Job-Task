@@ -156,6 +156,10 @@ nav {
 
 .hero-right {
     padding: 2rem;
+    background: url('Images/back-asset.png');
+    background-size: 150%;
+    background-position: -50%;
+    background-repeat: no-repeat;
 }
 
 .Blue-link {
