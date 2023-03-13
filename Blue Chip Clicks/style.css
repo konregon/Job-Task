@@ -322,10 +322,21 @@ nav {
     margin-top: 3rem;
 }
 
+.industry a,
+.industry h2 {
+    margin-left: 3rem;
+}
+
+.industry h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .industry-cards-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
+    margin: 0 3rem;
 }
 
 .industry-card {
@@ -336,11 +347,21 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
+    text-align: center;
 }
 
 .industry-card img {
     width: 100px;
     height: 100px;
+}
+
+.industry-bottom {
+    width: 100vw;
+    margin-top: 5rem;
+}
+
+.industry-bottom img {
+    width: 100%;
 }
 
 /* =========================================================================== */
@@ -388,6 +409,10 @@ nav {
         top: 13rem;
         left: 100%;
     }
+
+    .industry-cards-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 @media (max-width: 576px) {
@@ -410,5 +435,9 @@ nav {
 
     .blue-circle {
         left: 14rem;
+    }
+
+    .industry-cards-container {
+        grid-template-columns: 1fr 1fr;
     }
 }
