@@ -193,6 +193,55 @@ nav {
     margin-top: 3rem;
 }
 
+
+
+
+/* ========================================================================== */
+/* CARDS */
+.cards {
+    padding: 3rem 3rem 0 3rem;
+    background-color: #EDF0F6;
+}
+
+.card-container {
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #0000000D;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .card-title {
+    border-bottom: 10px solid #727f9b;
+    margin-bottom: 20px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+.read-more-empty {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: fit-content;
+    margin-top: 3rem;
+    color: #1a449e;
+    border: 1px solid #1a449e;
+}
+
+
+
+
 /* =========================================================================== */
 /* =========================================================================== */
 /* RESPONSIVE DESIGN */
@@ -214,11 +263,19 @@ nav {
     .hero {
         flex-direction: column;
     }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 576px) {
     .dropdown-menu {
         left: 2rem;
         width: unset;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
     }
 }
