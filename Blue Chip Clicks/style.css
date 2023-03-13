@@ -315,6 +315,34 @@ nav {
     box-shadow: 0px 50px 50px #00000029;
 }
 
+
+/* =========================================================================== */
+/* INDUSTRIES */
+.industry {
+    margin-top: 3rem;
+}
+
+.industry-cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.industry-card {
+    box-shadow: 0px 0px 10px #0000002B;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.industry-card img {
+    width: 100px;
+    height: 100px;
+}
+
 /* =========================================================================== */
 /* =========================================================================== */
 /* RESPONSIVE DESIGN */
