@@ -245,15 +245,19 @@ nav {
 .mid-banner {
     background-color: #3B5998;
     display: flex;
+    height: 600px;
 }
 
 .min-banner_left {
-    flex: 0 0 40%;
+    flex: 0 0 50%;
     background-image: url('Images/back-asset.svg');
     background-size: 150%;
     background-position: 150%;
     background-repeat: no-repeat;
     padding: 4rem 1rem 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .min-banner_left h3 {
@@ -266,6 +270,49 @@ nav {
     color: #fff;
     margin-top: 1rem;
     font-weight: 300;
+}
+
+.min-banner_right {
+    position: relative;
+    width: 50%;
+}
+
+.sky-blue-circle {
+    width: 14rem;
+    height: 14rem;
+    background-color: #80D8FF;
+    border-radius: 50%;
+    top: 5rem;
+}
+
+.blue-circle {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #4D9AD4;
+    left: 17rem;
+    top: 35%;
+}
+
+.gray-circle {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    background-color: #BEC8DD;
+    bottom: 5rem;
+    left: 5rem;
+}
+
+.sky-blue-circle,
+.blue-circle,
+.gray-circle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0px 50px 50px #00000029;
 }
 
 /* =========================================================================== */
@@ -293,6 +340,26 @@ nav {
     .card-container {
         grid-template-columns: 1fr 1fr;
     }
+
+    .mid-banner {
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .sky-blue-circle {
+        top: 4rem;
+        left: 40%;
+    }
+
+    .gray-circle {
+        top: 15rem;
+        left: 50%;
+    }
+
+    .blue-circle {
+        top: 13rem;
+        left: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -303,5 +370,17 @@ nav {
 
     .card-container {
         grid-template-columns: 1fr;
+    }
+
+    .sky-blue-circle {
+        left: 1rem;
+    }
+
+    .gray-circle {
+        left: 4rem;
+    }
+
+    .blue-circle {
+        left: 14rem;
     }
 }
