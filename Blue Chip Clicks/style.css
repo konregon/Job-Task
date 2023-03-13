@@ -199,7 +199,7 @@ nav {
 /* ========================================================================== */
 /* CARDS */
 .cards {
-    padding: 3rem 3rem 0 3rem;
+    padding: 3rem;
     background-color: #EDF0F6;
 }
 
@@ -240,7 +240,33 @@ nav {
 }
 
 
+/* =========================================================================== */
+/* MID BANNER */
+.mid-banner {
+    background-color: #3B5998;
+    display: flex;
+}
 
+.min-banner_left {
+    flex: 0 0 40%;
+    background-image: url('Images/back-asset.svg');
+    background-size: 150%;
+    background-position: 150%;
+    background-repeat: no-repeat;
+    padding: 4rem 1rem 4rem 2rem;
+}
+
+.min-banner_left h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.min-banner_left p {
+    color: #fff;
+    margin-top: 1rem;
+    font-weight: 300;
+}
 
 /* =========================================================================== */
 /* =========================================================================== */
